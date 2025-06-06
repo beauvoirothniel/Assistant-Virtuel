@@ -1,0 +1,67 @@
+{
+  "salon": {
+    "name": "Salon de l'Innovation Technologique 2025",
+    "date": "2025-06-15T09:00:00",
+    "venue": "Centre des Congrès de Brazzaville",
+    "description": "Le plus grand rendez-vous technologique du Congo-Brazzaville"
+  },
+  "exhibitors": [
+    {
+      "name": "TechInnovation SARL",
+      "category": "Intelligence Artificielle",
+      "booth_number": "A12",
+      "description": "Solutions d'IA pour les entreprises africaines",
+      "contact_person": "Marie Dubois",
+      "special_offers": ["Démonstration gratuite", "Consultation IA personnalisée"],
+      "location": {"x": 12, "y": 5, "zone": "A"},
+      "logo_path": "/static/images/tech-innovation-logo.png"
+    },
+    {
+      "name": "EcoTech Congo",
+      "category": "Technologie Verte",
+      "booth_number": "B08",
+      "description": "Solutions écologiques et durables",
+      "contact_person": "Jean-Paul Makaya",
+      "special_offers": ["Audit énergétique gratuit", "Kit solaire à prix réduit"],
+      "location": {"x": 8, "y": 3, "zone": "B"}
+    },
+    {
+      "name": "FinTech Brazzaville",
+      "category": "Services Financiers",
+      "booth_number": "C15",
+      "description": "Solutions de paiement mobile et bancaires",
+      "contact_person": "Sylvie Ngoma",
+      "special_offers": ["Ouverture de compte gratuite", "Formation fintech"],
+      "location": {"x": 15, "y": 7, "zone": "C"}
+    }
+  ],
+  "events": [
+    {
+      "title": "Conférence sur l'IA en Afrique",
+      "start_time": "2025-06-15T10:00:00",
+      "end_time": "2025-06-15T11:30:00",
+      "location": "Auditorium Principal",
+      "speaker": "Dr. Sophie Laurent",
+      "description": "L'avenir de l'intelligence artificielle sur le continent africain",
+      "category": "Conférence"
+    },
+    {
+      "title": "Atelier Technologies Vertes",
+      "start_time": "2025-06-15T14:00:00",  
+      "end_time": "2025-06-15T16:00:00",
+      "location": "Salle d'Atelier B",
+      "speaker": "Ing. Paul Makosso",
+      "description": "Mise en pratique des solutions écologiques",
+      "category": "Atelier"
+    },
+    {
+      "title": "Table Ronde Fintech",
+      "start_time": "2025-06-15T16:30:00",
+      "end_time": "2025-06-15T18:00:00", 
+      "location": "Espace Débat",
+      "speaker": "Panel d'experts",
+      "description": "L'avenir des services financiers numériques au Congo",
+      "category": "Table Ronde"
+    }
+  ]
+}
