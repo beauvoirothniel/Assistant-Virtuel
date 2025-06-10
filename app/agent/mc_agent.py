@@ -18,6 +18,8 @@ from app.tools.navigation_tools import NavigationTool
 from app.utils.logger import setup_logger
 from app.utils.exceptions import AgentError
 
+ 
+
 logger = setup_logger(_name_)
 
 class MasterOfCeremoniesAgent:
